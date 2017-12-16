@@ -1,0 +1,22 @@
+{
+  "name": "function-overloading",
+  "version": "1.0.0",
+  "description": "Package is implemented to make process of creating overloaded functions simpler and easier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/sir_ingvarr/function-overloading.git"
+  },
+  "keywords": [
+    "overloading"
+  ],
+  "author": "sir_ingvarr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/sir_ingvarr/function-overloading/issues"
+  },
+  "homepage": "https://gitlab.com/sir_ingvarr/function-overloading#README"
+}
