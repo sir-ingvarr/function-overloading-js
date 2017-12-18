@@ -11,7 +11,10 @@ module.exports = class OverloadedFunction extends Function {
       if(this.availableHandlers[key]) return this.availableHandlers[key].call(null, ...args);
       else throw new Error('no available handler for these types of arguments');
     };
+
+    this.function.__proto__ = this;
     this.availableHandlers = {};
+    return this.function;
   }
 
   _isAbleToAddNew(key) {

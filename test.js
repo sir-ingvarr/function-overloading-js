@@ -10,9 +10,8 @@ function test2(a,b,c) {
   console.log(c ? a : b);
 }
 
-let overloaded = func.overload(['number', 'number'], test);
-func.overload(['string', 'number', 'boolean'], test2);
+func.overload(['number', 'number'], test).overload(['string', 'number', 'boolean'], test2);
 
-overloaded(1,2);
-overloaded('aaa', 2, true);
-overloaded('aaa', 2, false);
+func(1,2);
+func('aaa', 2, true);
+func('aaa', 2, false);
