@@ -1,10 +1,10 @@
 {
   "name": "function-overloading",
   "version": "1.0.0",
-  "description": "Package is implemented to make process of creating overloaded functions simpler and easier.",
+  "description": "Class of overladed function",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo 'no tests available'"
   },
   "repository": {
     "type": "git",
